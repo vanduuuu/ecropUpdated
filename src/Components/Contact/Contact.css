@@ -1,0 +1,229 @@
+.contact {
+  padding-bottom: 80px;
+}
+
+.contact .info-box {
+  color: #444444;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+}
+.contact h6{
+  background-color: #bed5b7;
+  display: inline-block;
+  margin: 30px auto;
+  padding: 5px 28px;
+  border-radius: 27px;
+  font-size: 14px;
+  color: #69696994;
+  font-family: "Poppins", sans-serif;}
+.contact h1{
+color:#464544;
+}
+.contact p{
+font-size: 14px;
+color:#787070;
+}
+.C-info-here{
+padding:40px 0;
+}
+.C-info-here .imgh{
+height:60px;
+width: 60px;
+border-radius: 50%;
+box-shadow: 0px 3px 10px #000;}
+.C-info-here .social-imgg li{
+  height:40px;
+  width: 40px;
+  /* box-shadow: 0px 3px 10px #000;  */
+  display:inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.C-info-here h5, .C-info-here span{
+color:#2b760e;
+}
+.C-info-here h1{
+font-size:26px;
+}
+
+.map-border {
+border: 1px solid #bfe2c5;
+padding: 20px;
+box-shadow: 10px 10px 10px #9bbaa082;
+}
+.contact .info-box i {
+  font-size: 32px;
+  color: #5c9f24;;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #f0f7fa;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.contact .php-email-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 74px;
+  background: #bcbcbc78;
+  border-radius: 34px;
+}
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input::focus,
+.contact .php-email-form textarea::focus {
+  background-color: #67b0d1;
+}
+
+.contact .php-email-form input {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #248000;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background:#5c9f24;;
+}
+
+
+.custom-bg {
+  background: url('../../assets/background/contactbg.jpg') no-repeat center center;
+  background-size: cover;
+  /* Optional: adjust padding or height if needed */
+  padding: 20px 0;
+  font-family: "Merriweather";
+  
+}
+/* Modal overlay */
+.Overlay {
+background: rgba(0, 0, 0, 0.5);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1000; /* Ensure it's on top */
+}
+
+/* Modal content */
+.Modal {
+background: white;
+padding: 20px;
+border-radius: 8px;
+max-width: 500px;
+width: 90%;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+z-index: 1001; /* Ensure it's on top of the overlay */
+}
+
+/* Button styles (optional) */
+.Modal button {
+margin-top: 20px;
+}
+
+.requestOtp{
+display: inline;
+margin-top: 8px;
+border:solid green 1px;
+background-color: #8080805e;
+}
+
+.enterOtp{
+margin-top: 8px;
+display: inline;
+border:solid green 1px;
+background-color: #8080805e;
+}
+
+
+
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media(max-width:600px){
+  .contact .php-email-form {
+    padding: 28px;}
+    .C-info-here {
+      padding: 21px 19px;
+  }
+  
+  
+}

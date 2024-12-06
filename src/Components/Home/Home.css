@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.main-video {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-slider-one__video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main-slider-one__title{
+    font-family: var(--agrofa-heading-font, "Merriweather", cursive);
+    overflow: hidden;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.main-slider-one__sub-title{
+text-align: left;
+color: var(--agrofa-yellow, 253, 214, 31);
+font-size: 18px;
+line-height: 1;
+font-weight: 400;
+font-family: var(--agrofa-font, "Inter", sans-serif);
+width: fit-content;
+margin: -2px auto 22px auto;
+background-color: var(--agrofa-green, #0c7735);
+border-bottom: 1px solid var(--agrofa-yellow, 253, 214, 31);
+padding: 6px 12px 6px 13px;
+}
+
+h5.main-slider-one__sub-title {
+    color: yellow;
+    border-bottom: 1px solid var(--agrofa-yellow, 253, 214, 31);
+
+}
+
+.carousel-caption .main-slider-one__btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--agrofa-yellow, #FFD700);
+    border-radius: 5px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-slider-one__tree-icon{
+width: 40px  ;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.carousel-caption {
+    bottom: 18.55rem;}
+   .pp-info {
+        background-color: #7cc26629;
+        padding: 20px;
+        border: 4px solid #7cc266c4;
+        outline: 3px solid #267732;
+        /* animation: movingLeftRight 1s infinite alternate; */
+        margin: 20px 0;
+        }
+        .pp-info span {
+            font-size: 18px !important;
+            /* font-family: var(--agrofa-heading-font, "Mali", cursive); */
+            color: #267732;
+            font-weight: bold;
+        }
+    @media(max-width:768px) {
+        .main-slider-one__title {
+            font-size: 40px;
+         }
+        .carousel-caption {
+            bottom: 1.55rem;
+            right: 96px;
+            background: #0000004d;
+        }
+        .main-slider-one__btn{
+            display: none;
+        }
+    }
+    @media (max-width: 600px) {
+        .carousel-caption {
+            bottom: -0.55rem;
+                    left:1px!important;
+            right:0!important;
+           
+        }
+        .main-slider-one__btn{
+            display: none;
+        }
+        .main-slider-one__title {
+            font-size: 23px!important;}
+      
+    } 
+    @media (max-width:425px) {
+        .main-slider-one__sub-title {
+            font-size: 14px;
+        }
+        .main-slider-one__sub-title {
+            padding: 3px 4px 4px 5px;
+            margin: -2px auto 13px auto;
+        }
+        .main-slider-one__tree-icon {
+            width: 20px;
+        }
+         
+    }
+    @media (min-width: 1000px) and (max-width:1024px) {
+        /* font-size: 16px;
+        padding: 3px 3px 4px 6px; */
+      
+        .main-slider-one__title {
+            font-size: 38px;
+        }
+        .carousel-caption {
+            bottom: 6.55rem;
+        }
+        .main-slider-one__title {
+            font-size: 38px;}
+    }
+/* why choose use container    */
+.yur-reason{
+    color:#9e9e9e;
+    border-bottom: 1px solid #9e9e9e;
+    font-weight:400;
+}
+.sticky-top {
+    z-index: 999;
+}
+
+
+

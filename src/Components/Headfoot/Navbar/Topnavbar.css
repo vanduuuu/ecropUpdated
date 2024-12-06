@@ -1,0 +1,97 @@
+a{
+    text-decoration: none!important;
+}
+.topbar-one{
+    background-color: #e0f1b2;
+    color:black;
+    /* padding:10px 0; */
+}
+.topbar-one .topbar-one__inner{
+    display: flex;
+    justify-content: space-around;
+}
+.topbar-one .topbar-one__info{
+    display: flex;
+    margin-top:10px;
+}
+.topbar-one .topbar-one__info .topbar-one__info__item{
+    padding: 0px 45px;
+    border-right: 1px solid green;
+
+}
+.topbar-one .topbar-one__info .topbar-one__info__item i{
+    margin-right: 12px;
+    color:green;
+
+}
+.topbar-one .topbar-one__info .topbar-one__info__item a{
+    color:grey;
+    font-size: 18px;
+}
+.topbar-one__social span:first-child {
+    border-left: 1px solid green;
+}
+.topbar-one .topbar-one__social span{
+    border-right: 1px solid green!important;
+    line-height: 53px;
+    padding: 10px;
+}
+.topbar-one__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9d500;
+    padding: 0px 32px;
+        color: black;
+    font-weight: 500;
+}
+.topbar-one__right p{
+margin-right: 10px;
+margin-bottom: 0;
+}
+.topbar-one__btn{
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    padding:7px;
+}
+@media (max-width: 1024px) and (min-width: 900px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0px !important;
+        font-size: 14px;
+    }
+    .topbar-one__social{
+        display: none;
+    }
+    .topbar-one .topbar-one__info .topbar-one__info__item a {
+        color: black;
+        font-size: 11px;
+        font-weight: bolder;
+    }
+    .topbar-one .topbar-one__info .topbar-one__info__item {
+        padding: 0px 8px;
+    }
+        .topbar-one__right {
+            padding: 0px 3px;}
+}
+@media(max-width:768px){
+.topbar-one__right,.topbar-one__social{
+    display: none;
+}
+.topbar-one .topbar-one__info .topbar-one__info__item {
+    padding: 0px 14px;}
+    .topbar-one .topbar-one__info .topbar-one__info__item a {
+        font-size: 14px;
+    }
+    .logo {
+        width: 39%;
+    }
+}
+@media(max-width:600px){
+   .topbar-one{
+    display: none;
+   } 
+   .logo {
+    width: 75%;
+}
+}

@@ -1,0 +1,479 @@
+.hero-section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.ecrop-info-div {
+    padding: 20px 20px;
+    background-image: url('../../assets/background/bg2-ecrop1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* background-attachment: fixed; */
+}
+
+.ecrop-info-div .container {
+    padding: 30px;
+}
+
+.ecrop-info-div h1 {
+    font-size: 47px;
+    margin-bottom: 24px;
+    font-weight: 900;
+    color: #006a28;
+    text-align: center;
+}
+
+.outer-cont-devicee {
+    background-image: url('../../assets/background/16.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.col-md-6.e-infohere {
+    border-radius: 0% 50%;
+    padding: 0px 65px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: black;
+    text-align: start;
+}
+
+.outer-sliderhere {
+    padding: 50px 0;
+    background-color: #eeffea;
+    background-image: url('../../assets/background/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.outer-sliderhere .row {
+    width: 100%;
+    height: 100%;
+    padding: 54px;
+    margin: auto;
+    border: 1px solid green;
+    border-radius: 30px;
+}
+
+.e-infohere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.e-infohere img {
+    width: 32%;
+}
+
+.carousel-control-next {
+    right: -8%;
+}
+
+.carousel-control-prev {
+    left: -8%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #248000;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 9px 2px 30px #40714d;
+    animation: spreadBorder 1.3s ease-in-out infinite;
+
+}
+
+.ecrop-sliderr-info h2 {
+    font-size: 41px;
+    color: #1d6a24;
+}
+
+.ecrop-sliderr h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #1d6a24;
+}
+
+.ecrop-sliderr-info ul li {
+    font-size: 18px;
+    list-style-type: square;
+}
+
+.ecrop-sliderr-info span {
+    font-size: 29px;
+    color: #1c6423;
+    font-weight: 900;
+    background: #f5d400;
+    padding: 17px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        max-width: 99%;
+    }
+
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+
+    .ecrop-info-div {
+        padding: 9px 20px;
+        background-size: cover;
+        background-position: inherit;
+    }
+
+    .left-img-div {
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:600px) {
+    .hero-content {
+        padding: 0px 0px;
+    }
+
+    .hero-content h1 {
+        font-size: 47px;
+        margin-bottom: 16px;
+        font-weight: 900;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.5em;
+    }
+
+    .hero-content p {
+        font-size: 0.9em;
+    }
+}
+
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #006a28;
+}
+
+.left-img-div::after,
+.left-img-div::before {
+    content: '';
+    height: 100%;
+    width: 97%;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    border-radius: 90px;
+}
+
+.left-img-div::after {
+    left: -3%;
+    top: 2%;
+    border: 3px solid #248000;
+}
+
+.left-img-div::before {
+    left: -1%;
+    top: -2%;
+    border: 3px solid #ffc107;
+}
+
+.left-img-div {
+    position: relative;
+    z-index: 0;
+}
+
+/* ------------------------- */
+.hero-section1 {
+    background: url('../../assets/background/1.jpg');
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.content-section1 {
+    padding: 50px 0;
+    background-color: #4CAF50;
+    color: white;
+    min-height: 100vh;
+    position: relative;
+}
+
+.content-section1 .work-learn-one-imgg {
+    position: absolute;
+    top: -86px;
+    z-index: 984;
+    left: 36%;
+}
+
+.display-4 {
+    font-size: 54px;
+    font-weight: 800;
+    color: #006a28;
+}
+
+.app-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    padding: 20px;
+    border: 2px dashed #33772e;
+    outline: 48px dashed #267732;
+}
+
+.app-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-box h2 {
+    background: #275b26;
+    padding: 10px 12px;
+    border-radius: 0px 30px 0px 30px;
+}
+
+.bg-green {
+    background-color: #1e5b29;
+    background-image: url('../../assets/background/dark-ecrop.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.worek-learn-onee {
+    padding: 30px;
+    background-color: #9bb46c80;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 83px;
+    color: #e0e0e0
+}
+
+.ecrop-sliderr-info {
+    padding-top: 35px;
+}
+
+.left-img-div img {
+    border-radius: 90px;
+}
+
+@media (min-width: 900px) and (max-width: 1024px) {
+    .hero-content {
+        max-width: 91%;
+    }
+
+    .content-section1 .work-learn-one-imgg {
+        left: 27%;
+    }
+
+    .left-img-div::after {
+        height: 369px;
+        top: 11%;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section1 h1 {
+        font-size: 3.9rem;
+    }
+
+    .content-section1 .work-learn-one-imgg {
+        left: 21%;
+    }
+
+    .left-img-div::after,
+    .left-img-div::before {
+        display: none;
+    }
+
+    .left-img-div img {
+        border-radius: 0;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .bg-green {
+        background-image: none;
+    }
+
+    .content-section1 .work-learn-one-imgg {
+        left: 17%;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .carousel-control-next {
+        right: -4%;
+    }
+
+    .carousel-control-prev {
+        left: -4%;
+    }
+
+    .e-infohere img {
+        width: 16%;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .hero-section1 h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section1 p {
+        font-size: 0.9rem;
+    }
+}
+
+/* ------------- */
+.ad-section-ecrp {
+    background-color: #abc15014;
+    padding: 10px 0;
+}
+
+
+.admin-container {
+    padding: 30px 0px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+.admin-icon {
+    margin-right: 20px;
+    /* display: flex;
+            justify-content: center;
+            align-items: center; */
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: 2px solid green;
+    padding: 10px;
+    background-color: #f5d400;
+}
+
+.admin-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.admin-details h2 {
+    margin-top: 0;
+}
+
+@media (max-width: 600px) {
+    .admin-container {
+        flex-direction: column;
+    }
+
+    .admin-icon {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .content-section1 .work-learn-one-imgg {
+        left: 1%;
+    }
+
+    .worek-learn-onee {
+        padding: 0px;
+        width: 97%;
+        border-radius: 18px;
+    }
+
+    .outer-sliderhere .row {
+        padding: 20px;
+    }
+
+    .content-box h2 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .app-img {
+        width: 254px;
+        height: auto;
+        outline: 27px dashed #267732;
+    }
+
+    .display-4 {
+        font-size: 29px;
+    }
+
+    .left-img-div::after {
+        height: 258px;
+        width: 302px;
+    }
+
+    .ecrop-info-div {
+        background-image: none;
+        background-color: #f9faf1;
+    }
+
+    .ecrop-info-div h1 {
+        font-size: 26px;
+    }
+
+    .ecrop-info-div .container {
+        padding: 12px;
+    }
+
+    .ecrop-sliderr h1 {
+        font-size: 27px;
+    }
+
+    .e-infohere img {
+        width: 29%;
+    }
+
+    .ecrop-sliderr-info span {
+        font-size: 21px;
+    }
+}

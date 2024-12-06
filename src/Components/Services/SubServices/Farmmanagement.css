@@ -1,0 +1,164 @@
+.farmmanagementbg {
+  background-image: url("../../../assets/background/FARM-MANAGEMENT1.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+.farmmanagement-title h1 {
+  color: aliceblue;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.text-management {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #184a11;
+}
+
+.farm-manag-out {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.farm-service1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.mid-farm-section h1{
+  font-size: 43px;
+  font-weight: 800;
+  color: #3c552f;
+}
+.in-farm-step{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.in-farm-step .in-cont-div{
+  position: absolute;
+  top: 33%;
+    background-color: #3a5525;
+    padding: 15px;
+    height:auto;
+    width:62%;
+}
+.in-farm-step .in-cont-div::after{
+  content:"";
+  display: block;
+  border: 2px solid #f5d400;
+  height: 100%;
+  top: -11px;
+  position: absolute;
+  width: 100%;
+  left: 10px;
+}
+.farm-step {
+  background: #3e552d1c;
+  padding: 50px 20px;
+  position: relative;
+}
+.farm-step h2{
+  font-size: 43px;
+  font-weight: 800;
+  color: #3c552f;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.white-gradient {
+  position: absolute;
+  height: 21rem;
+  width: 23rem;
+  background: rgb(84 126 0 / 44%);
+  filter: blur(100px);
+  border-radius: 100px;
+  left: -9%;
+}
+.in-cont-div .stepss {
+  position: absolute;
+  top: -49px;
+  font-size: 71px;
+  z-index: 1;
+  color: #ffe226;
+  text-shadow: 3px 0px 4px black;
+  right: 13px;
+}
+.manage-section {
+  background: white;
+  padding: 36px 0;
+}
+.farm-circle {
+  height: 308px;
+  width: 308px;
+  /* border: 72px solid #3d5522; */
+  position: absolute;
+  right: -42px;
+  top: -79px;
+  border-radius: 50%;
+  z-index: -131;
+  filter: blur(100px);
+  background: #3d55228f;
+}
+.in-cont-1{
+  right: -180px;
+}
+.in-cont-2{
+  left: -180px; 
+}
+.farm-step .container .row{
+margin-bottom: 40px;
+}
+.farm-step .ul-list {
+  background-color: #3d552214;
+  padding: 16px;
+  box-shadow: 7px 12px 1px #3d55227a;
+}
+.farm-list ul li{
+  list-style: square;
+  font-weight: 700;
+}
+.overview-farm{
+  padding:30px;
+}
+.overview-farm ul li{
+  list-style: square;
+  color:grey;
+}
+@media(max-width:768px){
+  .in-farm-step .in-cont-div {
+    width: 38%;
+    left: 65%;}
+    .ordr2{
+      order:1;
+    }
+    .ordr1{
+      order:2;
+    }
+    .text-management {
+      font-size: 40px;}
+    .white-gradient, .farm-circle{
+      display: none;
+    }
+  }
+@media(max-width:600px){
+  .in-farm-step h1{
+font-size: 14px;
+  }
+  .farm-step h2, .mid-farm-section h1 {
+    font-size: 30px; }
+  
+.in-cont-div .stepss {
+  font-size: 50px;}
+  .in-cont-div h4{
+    font-size: 12px;
+  }
+}

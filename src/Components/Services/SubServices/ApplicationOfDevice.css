@@ -1,0 +1,302 @@
+.application-body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-outer-div {
+    background-color: pink;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The hero image */
+.hero-image-app {
+    background-image: url("../../../assets/img/ApplicationOfDevice.webp");
+    /* height: 100%; */
+    width: 100%;
+    padding:150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire area */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+
+/* Place text in the middle of the image */
+.hero-text h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(187, 252, 9, 0.911);
+    font-size: 60px;
+}
+.hero-text p {
+    background-color: #0d6efd36;
+    padding: 20px;
+    width:50%;
+    margin:auto
+}
+.hero-text1 p {
+    background-color: #8ebc1140;
+    padding: 20px;
+    width: 90%;
+    display: none;
+    margin: 20px auto;
+    border: 6px dashed #436202;
+    animation: border-animation 1s infinite;
+}
+@keyframes border-animation {
+    0% {
+        border-color: #ffc107;
+    }
+    
+    50% {
+        border-color: #436202;
+    }
+    100% {
+        border-color: #ffc107;
+    }
+}
+.vdo-section-ad{
+    background: #dbf1d7bf;
+    padding: 30px 0;
+    margin-bottom: 43px;
+    position: relative;
+}
+
+.vdo-section-ad::before {
+    content: "";
+    height: 29%;
+    width: 18px;
+    background: #6c7b37;
+    display: block;
+    left: 4%;
+    position: absolute;
+    top: 0%;
+  }
+  .vdo-section-ad::after {
+    content: "";
+    height: 29%;
+    width: 18px;
+    background: #6c7b37;
+    display: block;
+    right: 5%;
+    position: absolute;
+    bottom: 0%;
+  }
+.vdo-section-ad video{
+    width:80%;
+}
+.bold-txtt{
+    color:green
+}
+.ad-app-info{
+    padding: 20px 0;
+}
+.ad-app-info ul{
+    list-style: square;
+}
+.ad-app-info h2 {
+    color: #074f22;
+    font-size: 31px;
+    margin-bottom: 20px;
+}
+.ad-app-info span{
+    background-color: #e5f4e0;
+    font-weight: 600;
+    padding: 5px;
+}
+.bg-application{
+    background-image: url('../../../assets/background/ecrop-about-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-application .container{
+    background-color: #ffffff7d;
+    padding:20px;
+}
+@media(max-width:1024px) and (min-width:900px){
+    .hero-image-app {
+        padding: 30px 0;}
+        .hero-text h1 {
+            font-size: 40px;
+        }
+        .vdo-section-ad video {
+            width: 100%!important;
+        }
+}
+@media(max-width:768px){
+    .hero-image-app {
+        padding:100px;}
+        .hero-text1 p{
+            display: block;
+        }
+        .hero-text p{
+            display: none;
+        }
+        .hero-text h1 {
+            font-size: 40px;
+        }
+        .vdo-section-ad video {
+            width: 100%!important;
+        }
+}
+.app-tit{
+    position: relative;
+}
+.app-tit img{
+position: absolute;
+left:50%;
+top:-85%;
+transform: translate(-50%, -50%);
+}
+.app-tit h6{
+    text-decoration: underline;
+    color:grey;
+    margin: 50px 0px 30px 0px;
+}
+.outer-tit-app h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 75px;
+    color: #074f22;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+.inner-application-info ul{
+    list-style: square;
+}
+.inner-application-info h2 {
+    color: darkgreen;
+    font-size: 31px;
+    border-left: 10px solid #ffc107;
+    padding-left: 11px;
+}
+.inner-application-info ul li {
+    color: #8b8383;
+    font-size: 19px;
+}
+.appli-img {
+    position: relative;
+    border-radius: 221px;
+    background: #e5f4e0;
+    padding: 38px;
+}
+.appli-img:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border: 1px solid #f5d400;
+    display: block;
+    position: absolute;
+    top: 0px;
+    border-radius: 220px;
+    left: -26px;
+} 
+.appli-img:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border: 1px solid #33772e;
+    display: block;
+    position: absolute;
+    top: 0px;
+    border-radius: 220px;
+    left: -16px;
+}
+.appli-img .app1{
+    position: absolute;
+    max-width: 200px;
+    background-color: #f9d500;
+    right: -55px;
+    border-radius: 25px 0 25px 25px;
+    padding: 15px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.appli-img .app2{
+    position: absolute;
+    max-width: 200px;
+    background-color:#267732;
+    top: 66%;
+    left: -14%; 
+    border-radius: 0px 25px 25px 25px;
+    padding: 15px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    z-index: 1;
+}
+.app1 h6, .app2, h6{
+    font-size: 21px;
+
+}
+
+@media(max-width:768px){
+    .outer-tit-app h1 {
+        text-align: center;
+        font-size: 49px;
+        font-weight: 600;
+        line-height: 57px;}
+        .appli-img .app2 {
+            top: 62%;
+            left: 67%;}
+            .appli-img .app1 {
+                left: -61px;
+                top: 3%;}
+}
+@media(max-width:600px){
+    .appli-img{
+margin-top:20px;
+    }
+    .appli-img .app1, .appli-img .app2{
+        display: none;
+    }
+    .outer-tit-app h1 {
+        font-size: 26px;
+        line-height: 41px;}
+        .inner-application-info h2 {
+            font-size: 24px;
+        border-left:3px solid #ffc107;}
+            .app-tit h6 {
+                font-size: 14px;
+                margin: 48px 0px 10px 0px;
+            }
+            .appli-img:before {
+                left: 6px;}
+                .vdo-section-ad::before, .vdo-section-ad::after {
+                    height: 7%!important;}
+                .appli-img:after {
+                    left: -9px;
+                }
+                .ad-app-info .col-md-4 {
+                    order: 1;
+                }
+                .inner-application-info {
+                    padding: 10px;
+                }
+                .inner-application-info ul li {
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+                .ad-app-info h2 {
+                    font-size: 26px;}
+                    .vdo-section-ad {
+                        margin-bottom: 0px;
+                    }                    
+}
+
+
