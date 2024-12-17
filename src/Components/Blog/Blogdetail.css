@@ -1,8 +1,17 @@
 .outer-blog-img{
     width:100%;
     background-color: yellow;
-    height:500px;
+    /* height:700px; */
     margin: auto;
+}
+.boost-img{
+    height:700px;
+}
+.boost-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
 }
 .outer-blog-img img{
     width: 100%;
@@ -24,4 +33,12 @@
 .blog-detail strong{
     font-style: italic;
     color: #037e03;
+}
+@media(max-width:600px){
+    .blog-detail h2{
+       font-size: 18px;
+    }
+    .blog-footer p {
+        font-size: 12px;
+    }
 }

@@ -14,7 +14,7 @@
 .main-slider-one__title{
     font-family: var(--agrofa-heading-font, "Merriweather", cursive);
     overflow: hidden;
-    font-size: 85px;
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -46,7 +46,9 @@ h5.main-slider-one__sub-title {
     color: #000000;
     text-decoration: none;
 }
-
+.carousel-caption h1{
+    font-size: 70px;
+}
 .main-slider-one__tree-icon{
 width: 40px  ;
     margin: 0 auto;
@@ -69,33 +71,158 @@ width: 40px  ;
             color: #267732;
             font-weight: bold;
         }
-    @media(max-width:768px) {
+        section .container-fluid .row{
+            width:100%;
+            height:800px;
+            
+        } 
+       
+        .section-left{
+            width: 50%;
+            height: 800px;
+            padding: 3%;
+        }
+        .section-left h1{
+            color: #267732;
+            font-weight: 700;
+            font-size: 50px;
+        }
+        .section-right{
+            width: 49%;
+            height: 800px;
+           
+        }
+        .carousel-item .image-ecrop{
+            height: 620px;
+            width:350px;
+          margin: auto;
+        }
+        .carousel-item .image-ecrop img{
+            height: 100%;        
+        }
+        .esection .container-fluid{
+            background-image: url(../../assets/background/bg2-ecrop1.jpg);
+          
+        }
+       .qr-scan{
+        margin-bottom:20px;
+        width: 100px;
+        height: 100px;
+       
+       }
+    .btn-qrscan{
+        /* height: 200px; */
+        display: flex;
+        /* gap: 20%; */
+        justify-content: space-evenly;
+    }
+
+    @media(max-width:900px) {
         .main-slider-one__title {
             font-size: 40px;
          }
+      
         .carousel-caption {
             bottom: 1.55rem;
             right: 96px;
             background: #0000004d;
         }
         .main-slider-one__btn{
-            display: none;
+            display:block;
         }
-    }
-    @media (max-width: 600px) {
-        .carousel-caption {
-            bottom: -0.55rem;
-                    left:1px!important;
-            right:0!important;
+        section .container-fluid .row{
+            width:100%;
+            height:auto;
+            
+        } 
+        .carousel-item .image-ecrop img{
+            height: 100%;
+        }
+      
+       .carousel-control-next-icon{
+        margin-left: -52px;
+       }
+        .section-left{
+            width: 100%;
+            height: auto;
            
         }
-        .main-slider-one__btn{
-            display: none;
+        .section-left h1{
+            color: #267732;
+            font-weight: 700;
+            font-size: 25px;
+        }
+        .section-left p{
+            font-size: small;
+        }
+        .section-right{
+            width: 100%;
+            height: auto;
+           
+        }
+        .qr-scan.main-slider-one__btn{
+            display:block;
         }
         .main-slider-one__title {
             font-size: 23px!important;}
       
     } 
+        .container-fluid .row {
+            display: flex;
+        }
+    
+    @media (max-width: 600px) {
+        .carousel-caption {
+            bottom: -0.55rem;
+            left:1px!important;
+            right:0!important;
+           
+        }
+        section .container-fluid .row{
+            width:100%;
+            height:auto;
+            
+        } 
+        .carousel-item .image-ecrop {
+            height: 500px;
+            width: 250px;}
+            .esection .container-fluid {
+                background-size: cover;
+                background-position-x: right;
+            }
+       
+       .carousel-control-next-icon{
+        margin-left: 30px;
+       }
+        .section-left{
+            width: 100%;
+            height: auto;
+           
+        }
+        .section-left h1{
+            color: #267732;
+            font-weight: 700;
+            font-size: 25px;
+        }
+        .section-left p{
+            font-size: small;
+        }
+        .section-right{
+            width: 100%;
+            height: auto;
+           
+        }
+        .qr-scan.main-slider-one__btn{
+            display:block;
+        }
+        .main-slider-one__title {
+            font-size: 23px!important;}
+      
+    } 
+        .container-fluid .row {
+            display: flex;
+        }
+    
     @media (max-width:425px) {
         .main-slider-one__sub-title {
             font-size: 14px;
@@ -108,8 +235,49 @@ width: 40px  ;
             width: 20px;
         }
          
-    }
-    @media (min-width: 1000px) and (max-width:1024px) {
+        section .container-fluid .row{
+            width:100%;
+            height:auto;
+            
+        } 
+        .carousel-item .image-ecrop img{
+            height: 100%;
+           margin-left: 0%;
+        }
+       
+       .carousel-control-next-icon{
+        margin-left: 30px;
+       }
+        .section-left{
+            width: 100%;
+            height: auto;
+           
+        }
+        .section-left h1{
+            color: #267732;
+            font-weight: 700;
+            font-size: 25px;
+        }
+        .section-left p{
+            font-size: small;
+        }
+        .section-right{
+            width: 100%;
+            height: auto;
+           
+        }
+        .qr-scan.main-slider-one__btn{
+            display:block;
+        }
+        .main-slider-one__title {
+            font-size: 23px!important;}
+      
+    } 
+        .container-fluid .row {
+            display: flex;
+        }
+    
+    @media (min-width: 900px) and (max-width:1250px) {
         /* font-size: 16px;
         padding: 3px 3px 4px 6px; */
       
@@ -120,7 +288,34 @@ width: 40px  ;
             bottom: 6.55rem;
         }
         .main-slider-one__title {
-            font-size: 38px;}
+            font-size: 38px!important;
+        }
+        
+        .carousel-item .image-ecrop img{
+            height: 100%;
+        
+        }
+    }
+    @media (min-width: 900px) and (max-width:1200px) {
+            .section-left{
+            width: 50%;
+            height: auto;
+           
+        }
+        .section-left h1{
+            color: #267732;
+            font-weight: 600;
+            font-size: 25px;
+        }
+        .section-left p{
+            font-size: small;
+        }
+    }
+    @media (max-width: 1400px){
+        .carousel-item .image-ecrop img{
+            height: 100%;
+        }
+       
     }
 /* why choose use container    */
 .yur-reason{
@@ -129,7 +324,7 @@ width: 40px  ;
     font-weight:400;
 }
 .sticky-top {
-    z-index: 999;
+    z-index:999;
 }
 
 

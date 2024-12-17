@@ -2,6 +2,8 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logoo from '../../../assets/img/logooo.svg';
 import './Subnavbar.css';
+import Timer from "./Timer/Timer";
+
 
 function Subnavbar() {
   const location = useLocation(); // Get the current location
@@ -26,6 +28,8 @@ function Subnavbar() {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
+           <div className='timer'><h5><Timer duration={ 2 * 24 * 60 * 60 * 1000 }/></h5></div>
             {/* Menu items - moved to the right */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">

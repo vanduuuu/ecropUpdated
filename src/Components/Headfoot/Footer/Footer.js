@@ -25,9 +25,9 @@ function Footer() {
                 </div>
                 <p>
                 The Electronic Crop (e-Crop) device, developed and
-patented by ICAR-CTCRI, is designed for smart
-farming. Manufactured by Tech Visit IT Pvt Ltd, it leverages
-technology to enhance agricultural practices.
+                patented by ICAR-CTCRI, is designed for smart
+                farming. Manufactured by Tech Visit IT Pvt Ltd, it leverages
+                technology to enhance agricultural practices.
                 </p>
                 <div className="socialLinks">
                   <ul>
@@ -79,8 +79,8 @@ technology to enhance agricultural practices.
                   <ul>
                     <li><h6>Project Office :</h6></li>
                     <li>
-                      61, City Tower, Unit No 2, Dr. S.S. Rao Road, Parel,
-                      Mumbai, 400012
+                    Unit No 22, Building No. 2(A3), Sector 1, Millennium Business Park, Mahape,
+                     Navi Mumbai, 400710
                     </li>
                   </ul>
                 </div>

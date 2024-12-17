@@ -439,8 +439,8 @@ function Sustainability() {
         <section className="third-section-sust">
             <div className="container">
                 <div className="col-lg-4 dd col-md-12">
-<p>Precision Grow’s resilience in incorporating sustainability into its core operations ensures that it remains at the forefront of industry standards, setting a model for others to follow. This commitment positions Precision Grow not just as a business leader but as a responsible corporate citizen dedicated to fostering a sustainable future for all. Moreover, Precision Grow actively engages with stakeholders, including employees, customers, suppliers, and the communities in which it operates, to ensure that its sustainability efforts are inclusive and impactful.</p>
-            <p>Through educational programs, partnerships with environmental organizations, and community outreach initiatives, the company promotes sustainability awareness and action at multiple levels.</p>
+                <p>Precision Grow’s resilience in incorporating sustainability into its core operations ensures that it remains at the forefront of industry standards, setting a model for others to follow. This commitment positions Precision Grow not just as a business leader but as a responsible corporate citizen dedicated to fostering a sustainable future for all. Moreover, Precision Grow actively engages with stakeholders, including employees, customers, suppliers, and the communities in which it operates, to ensure that its sustainability efforts are inclusive and impactful.</p>
+                <p>Through educational programs, partnerships with environmental organizations, and community outreach initiatives, the company promotes sustainability awareness and action at multiple levels.</p>
                 </div>
             </div>
         </section>

@@ -26,7 +26,7 @@ function Whychooseuse() {
         <div className="text-center whychooseuse-inner" data-aos="fade-up">
           <img className="why-choose-one__chose-icon" src={croplogo} alt="" />
           <h2 className="text-success mb-4 title-whychooseuse">WHY CHOOSE US</h2>
-          <h1 className="display-3">E-Crop Revolutionizes <br />Smart Farming</h1>
+          <h1 className="display-3">e-Crop Revolutionizes <br />Smart Farming</h1>
         </div>
         <div className="row mt-5">
           <div className="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
@@ -94,7 +94,7 @@ function Whychooseuse() {
     <div class="container-fluid">
     <div class="row">
                    <div class="col-lg-4 offset-lg-4" data-aos="fade-up">
-                                <h4 class="tit-for">Core Features of Smart eCrop</h4>
+                                <h4 class="tit-for">Core Features of Smart e-Crop</h4>
                                 <p class="team-skills-one__col-text">
                                     </p><ol>
                                         <li><span>Comprehensive Data Collection</span></li>

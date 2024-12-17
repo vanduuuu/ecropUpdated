@@ -85,8 +85,8 @@
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     background-color: #248000;
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     box-shadow: 9px 2px 30px #40714d;
     animation: spreadBorder 1.3s ease-in-out infinite;
@@ -341,11 +341,7 @@
         left: 17%;
     }
 
-    .carousel-control-next-icon,
-    .carousel-control-prev-icon {
-        height: 30px;
-        width: 30px;
-    }
+
 
     .carousel-control-next {
         right: -4%;
