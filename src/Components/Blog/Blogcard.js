@@ -18,7 +18,7 @@ const Blogcard = ({
     <div className="col-lg-4 col-md-6">
       <div className="card">
         <div className="blog-image">
-          <img src={image} alt={title} />
+          <img src={image} alt={title} className='w-100'/>
           <div className={`date bg-${tag.toLowerCase()}`}>{date}</div>
           <div className={`tag bg-${tag.toLowerCase()}`}>{tag}</div>
         </div>

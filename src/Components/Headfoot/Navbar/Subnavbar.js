@@ -2,19 +2,31 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logoo from '../../../assets/img/logooo.svg';
 import './Subnavbar.css';
-import Timer from "./Timer/Timer";
-
 
 function Subnavbar() {
   const location = useLocation(); // Get the current location
+
+  // Function to close the menu
+  const closeMenu = () => {
+    const navMenu = document.getElementById('navbarSupportedContent');
+    const navbarToggler = document.querySelector('.navbar-toggler');
+
+    if (navMenu && navMenu.classList.contains('show')) {
+      navMenu.classList.remove('show');
+      if (navbarToggler) {
+        navbarToggler.setAttribute('aria-expanded', 'false');
+      }
+    }
+  };
 
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div className="container-fluid">
-          {/* Logo - stays on the left */}
+          {/* Logo */}
           <img className="logo" loading="lazy" src={logoo} alt="logo" />
 
+          {/* Hamburger Menu Toggle */}
           <button
             className="navbar-toggler"
             type="button"
@@ -27,16 +39,14 @@ function Subnavbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
 
+          {/* Navigation Menu */}
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-
-           <div className='timer'><h5><Timer duration={ 2 * 24 * 60 * 60 * 1000 }/></h5></div>
-            {/* Menu items - moved to the right */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
                   className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
-                  aria-current="page"
                   to="/"
+                  onClick={closeMenu}
                 >
                   Home
                 </Link>
@@ -45,6 +55,7 @@ function Subnavbar() {
                 <Link
                   className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}
                   to="/about"
+                  onClick={closeMenu}
                 >
                   About
                 </Link>
@@ -55,6 +66,7 @@ function Subnavbar() {
                     location.pathname.startsWith('/services') ? 'active' : ''
                   }`}
                   to="/services"
+                  onClick={closeMenu}
                 >
                   Services
                 </Link>
@@ -65,6 +77,7 @@ function Subnavbar() {
                       className={`dropdown-item ${
                         location.pathname === '/farmmanagement' ? 'active' : ''
                       }`}
+                      onClick={closeMenu}
                     >
                       Farm Management
                     </Link>
@@ -75,6 +88,7 @@ function Subnavbar() {
                       className={`dropdown-item ${
                         location.pathname === '/ApplicationOfDevice' ? 'active' : ''
                       }`}
+                      onClick={closeMenu}
                     >
                       Application Of Device
                     </Link>
@@ -85,6 +99,7 @@ function Subnavbar() {
                       className={`dropdown-item ${
                         location.pathname === '/interface' ? 'active' : ''
                       }`}
+                      onClick={closeMenu}
                     >
                       E-crop Interface
                     </Link>
@@ -97,6 +112,7 @@ function Subnavbar() {
                     location.pathname.startsWith('/ecrop') ? 'active' : ''
                   }`}
                   to="/ecrop"
+                  onClick={closeMenu}
                 >
                   Products
                 </Link>
@@ -107,6 +123,7 @@ function Subnavbar() {
                       className={`dropdown-item ${
                         location.pathname === '/ecrop' ? 'active' : ''
                       }`}
+                      onClick={closeMenu}
                     >
                       e-CROP
                     </Link>
@@ -119,6 +136,7 @@ function Subnavbar() {
                     location.pathname === '/sustainability' ? 'active' : ''
                   }`}
                   to="/sustainability"
+                  onClick={closeMenu}
                 >
                   Sustainability
                 </Link>
@@ -129,6 +147,7 @@ function Subnavbar() {
                     location.pathname === '/gallery' ? 'active' : ''
                   }`}
                   to="/gallery"
+                  onClick={closeMenu}
                 >
                   Gallery
                 </Link>
@@ -137,6 +156,7 @@ function Subnavbar() {
                 <Link
                   className={`nav-link ${location.pathname === '/blog' ? 'active' : ''}`}
                   to="/blog"
+                  onClick={closeMenu}
                 >
                   Blog
                 </Link>
@@ -145,6 +165,7 @@ function Subnavbar() {
                 <Link
                   className={`nav-link ${location.pathname === '/faq' ? 'active' : ''}`}
                   to="/faq"
+                  onClick={closeMenu}
                 >
                   FAQ
                 </Link>
@@ -153,8 +174,7 @@ function Subnavbar() {
                 <Link
                   className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}
                   to="/contact"
-                  role="button"
-                  aria-expanded="false"
+                  onClick={closeMenu}
                 >
                   Contact
                 </Link>

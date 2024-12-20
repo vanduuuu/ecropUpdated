@@ -51,6 +51,11 @@ function Footer() {
                         <i className="fab fa-instagram"></i>
                       </Link>
                     </li>
+                    <li>
+                      <Link to="https://youtube.com/live/rEZCjzPjfRU?feature=share">
+                      <i class="fa-brands fa-youtube"></i>
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

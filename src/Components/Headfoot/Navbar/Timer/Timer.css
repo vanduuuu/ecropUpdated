@@ -7,24 +7,14 @@
     text-decoration: none;
 }
 
-.time p{
-    font-size: 10px;
-    transform: translateY(20%);
 
-}
-.time h3{
-    font-size:30px ;
-    transform:  translateY(10%);
-    color: black;
-    margin-bottom: 1rem;
-} 
-h3 b{
-    color: red;
-}
-
-@media(max:1024px){
+@media(max-width:1440px){
     .timer{
-        margin-left: 50px;
+        margin-left: 10px;} 
+}
+@media(max-width:1024px){
+    .timer{
+        margin-left: 30px;
         transform: translateY(8%); 
         color: red;
         font-weight: 600;

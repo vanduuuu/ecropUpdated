@@ -15,7 +15,7 @@ const Boost_profits_with_precision_farming_ecrop_action = () => {
   const breadcrumbItems = [
     { label: 'Home', link: '/', active: false },
     { label: 'Blog', link: '/blog', active: false },
-    { label: 'Blog Detail', active: true }, // Active item does not need a link
+    { label:  blog.title, active: true }, // Active item does not need a link
   ];
   return (
     <div className="container">

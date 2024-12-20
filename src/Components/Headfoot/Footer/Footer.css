@@ -105,7 +105,9 @@ color: #dd5044;
 .socialLinks ul li a .fa-linkedin-in {
 color: #0177b5;
 }
-
+.socialLinks ul li a .fa-youtube {
+    color: #ff0303;
+    }
 
 .socialLinks ul li a:hover i {
 color: #fff;
@@ -126,6 +128,9 @@ background: #dd5044;
 .socialLinks ul li a:hover .fa-linkedin-in {
 background: #0177b5;
 }
+.socialLinks ul li a:hover .fa-youtube {
+    background: #ff0303;
+    }
 footer .logo {
 max-width: 200px;
 }

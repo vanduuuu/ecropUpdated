@@ -24,11 +24,14 @@ import Ecrop_The_Ultimate_IoT_Solution_For_Precision_Agriculture_In_2024 from '.
 import Ecrops_Role_In_Meeting_Global_Food_Security_Goals_By_2030 from './Components/Blog/Ecrops_Role_In_Meeting_Global_Food_Security_Goals_By_2030'
 import Empowering_Small_Farmers_Ecrops_Affordable_Precision_Farming_Solutions from './Components/Blog/Empowering_Small_Farmers_Ecrops_Affordable_Precision_Farming_Solutions'
 import How_Ecrop_Is_Revolutionizing_Modern_Farming_Practices from './Components/Blog/How_Ecrop_Is_Revolutionizing_Modern_Farming_Practices'
-import Bridging_Gaps_In_Agriculture_Ecrops_Role_From_State_To_Panchayat_Levels from './Components/Blog/Bridging_Gaps_In_Agriculture_Ecrops_Role_From_State_To_Panchayat_Levels';
+import Bridging_Gaps_In_Agriculture_Ecrops_Role_From_State_To_Panchayat_Levels from './Components/Blog/Bridging_Gaps_In_Agriculture_Ecrops_Role_From_State_To_Panchayat_Levels.js';
 import Cut_Fertilizer_Costs_With_Ecrop_Technology from './Components/Blog/Cut_Fertilizer_Costs_With_Ecrop_Technology';
 import Invest_In_Sustainable_Farming_With_Ecrop_Today from './Components/Blog/Invest_In_Sustainable_Farming_With_Ecrop_Today';
 import Comprehensive_look_at_ecrop_soil_data_to_harvest_insights from './Components/Blog/Comprehensive_look_at_ecrop_soil_data_to_harvest_insights'
 import Precision_Farming_For_Beginners_Guide_To_Using_Ecrop_Effectively from './Components/Blog/Precision_Farming_For_Beginners_Guide_To_Using_Ecrop_Effectively.js'
+import Sustainable_Farming_With_Ecrop_Reducing_Input_Wastage from './Components/Blog/Sustainable_Farming_With_Ecrop_Reducing_Input_Wastage.js'
+import Future_Of_Crop_Yield_Predictions_Ecrop_Technology from './Components/Blog/Future_Of_Crop_Yield_Predictions_Ecrop_Technology.js'
+import Top_5_Crops_Benefiting_From_Ecrop_Technology from './Components/Blog/Top_5_Crops_Benefiting_From_Ecrop_Technology.js'
 function App() {
   return (
     <div> 
@@ -60,6 +63,9 @@ function App() {
        <Route path="/Invest_In_Sustainable_Farming_With_Ecrop_Today" element={<Invest_In_Sustainable_Farming_With_Ecrop_Today/>} />
        <Route path="/Comprehensive_look_at_ecrop_soil_data_to_harvest_insights" element={<Comprehensive_look_at_ecrop_soil_data_to_harvest_insights/>} />
        <Route path="/Precision_Farming_For_Beginners_Guide_To_Using_Ecrop_Effectively" element={<Precision_Farming_For_Beginners_Guide_To_Using_Ecrop_Effectively/>} />
+       <Route path="/Sustainable_Farming_With_Ecrop_Reducing_Input_Wastage" element={<Sustainable_Farming_With_Ecrop_Reducing_Input_Wastage/>} />
+       <Route path="/Future_Of_Crop_Yield_Predictions_Ecrop_Technology" element={<Future_Of_Crop_Yield_Predictions_Ecrop_Technology/>} />
+       <Route path="/Top_5_Crops_Benefiting_From_Ecrop_Technology" element={<Top_5_Crops_Benefiting_From_Ecrop_Technology/>} />
        
       
     </Routes>

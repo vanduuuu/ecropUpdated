@@ -2,16 +2,30 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import Blogdata from './Blogdata';
 import './Blogdetail.css'
-const BlogDetail = () => {
+import Breadcrumb from '../Breadcrumb';
+import Seo from '../Seo';
+const Introduction_to_Smart_Farming_How_eCrop_is_Transforming_Agriculture = () => {
   const location = useLocation();
   const blog = Blogdata.find((item) => item.detailPage === location.pathname);
 
   if (!blog) {
     return <h2>Blog Not Found</h2>;
   }
-
+  const breadcrumbItems = [
+    { label: 'Home', link: '/', active: false },
+    { label: 'Blog', link: '/blog', active: false },
+    { label: blog.title , active: true }, // Active item does not need a link
+  ];
   return (
     <div className="container">
+        <Seo
+        title={blog.title}
+        description={blog.metaDescription || 'Explore how e-Crop technology leverages AI, satellite imaging, and data analytics to predict crop yields, manage resources efficiently, and support farmers in overcoming climate challenges for higher productivity and sustainability.'}
+        author={blog.author}
+        image={blog.image}
+        url={`https://ecrop.co.in${location.pathname}`}
+      />
+                    <Breadcrumb items={breadcrumbItems} />
       <div className="blog-detail">
         <div className='outer-blog-img'>
         <img src={blog.image} alt={blog.title} className="blog-detail-image" />
@@ -60,4 +74,4 @@ const BlogDetail = () => {
   );
 };
 
-export default BlogDetail;
+export default Introduction_to_Smart_Farming_How_eCrop_is_Transforming_Agriculture;

@@ -9,7 +9,7 @@ function Modal({ isOpen, onClose }) {
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal-content" onClick={e => e.stopPropagation()}>
                 <span className="modal-close" onClick={onClose}>&times;</span>
-                <Link to="/ecrop"><img src={addhere} alt="Modal Content" /></Link>
+                <Link to="https://youtube.com/live/rEZCjzPjfRU?feature=share"><img src={addhere} alt="Modal Content" /></Link>
             </div>
         </div>
     );

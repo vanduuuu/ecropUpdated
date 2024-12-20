@@ -4,6 +4,7 @@ import Blogdata from './Blogdata';
 import './Blogdetail.css'
 import Breadcrumb from '../Breadcrumb';
 import leftimgB from '../../assets/img/Bridging_Gaps_in_Agriculture_eCrops_Role_from_State_to_Panchayat_Levels-2.webp'
+import Seo from '../Seo';
 const Bridging_Gaps_In_Agriculture_Ecrops_Role_From_State_To_Panchayat_Levels = () => {
   const location = useLocation();
   const blog = Blogdata.find((item) => item.detailPage === location.pathname);
@@ -18,6 +19,13 @@ const Bridging_Gaps_In_Agriculture_Ecrops_Role_From_State_To_Panchayat_Levels = 
   ];
   return (
     <div className="container">
+      <Seo
+        title={blog.title}
+        description={blog.metaDescription || 'Explore how e-Crop is transforming agriculture by bridging the gap between state and panchayat levels. Learn how this innovative device empowers farmers with real-time data, improves resource management, and fosters sustainable farming practices.'}
+        author={blog.author}
+        image={blog.image}
+        url={`https://ecrop.co.in${location.pathname}`}
+      />
                         <Breadcrumb items={breadcrumbItems} />
       <div className="blog-detail">
         <div className='outer-blog-img'>
