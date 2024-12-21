@@ -5,7 +5,29 @@
     width:100%;  
     position: relative;
 }
-
+.pagebtn {
+    background-color: #008000;
+    color: white;
+}
+.pagebtn:hover{
+    color:#fff;
+}
+.btn-primary {
+    --bs-btn-bg: #008000;
+    --bs-btn-border-color: #008000;}
+    .btn:hover {
+        background-color: #008000;
+        border-color: #008000;
+    }
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: #008000;
+    border-color: #008000;
+}
+.btn-outline-primary {
+    --bs-btn-color: #008000;
+    --bs-btn-border-color: #008000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #008000;}
  .bb{
     background-color: #eee;
     padding:0 10px;

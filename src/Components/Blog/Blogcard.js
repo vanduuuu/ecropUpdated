@@ -18,12 +18,12 @@ const Blogcard = ({
     <div className="col-lg-4 col-md-6">
       <div className="card">
         <div className="blog-image">
-          <img src={image} alt={title} className='w-100'/>
+        <Link to={detailPage}><img src={image} alt={title} className='w-100'/></Link>
           <div className={`date bg-${tag.toLowerCase()}`}>{date}</div>
           <div className={`tag bg-${tag.toLowerCase()}`}>{tag}</div>
         </div>
         <div className="blog-content">
-          <div className="blog-title mb-2">{title}</div>
+          <div className="blog-title mb-2"><Link to={detailPage}>{title}</Link></div>
           <p className="blog-desc">
             {desc} <Link to={detailPage}>Read More</Link>
           </p>

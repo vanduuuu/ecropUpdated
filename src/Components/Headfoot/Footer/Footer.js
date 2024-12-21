@@ -68,11 +68,10 @@ function Footer() {
                 </div>
                 <div className="col-md-10 text-white">
                   <ul>
-                    <li><h6>Regd. Office :</h6></li>
+                  <li><h6>Corporate Office :</h6></li>
                     <li>
-                      B-155, Ground Floor, Vashi Plaza, Sector-17, Vashi,
-                      Mumbai, 400703
-                    </li>
+                    Unit No 22, Building No. 2(A3), Sector 1, Millennium Business Park, Mahape, Navi Mumbai, 400710</li>
+                   
                   </ul>
                 </div>
               </div>
@@ -82,10 +81,10 @@ function Footer() {
                 </div>
                 <div className="col-md-10 text-white">
                   <ul>
-                    <li><h6>Project Office :</h6></li>
+                    <li><h6>Regd. Office :</h6></li>
                     <li>
-                    Unit No 22, Building No. 2(A3), Sector 1, Millennium Business Park, Mahape,
-                     Navi Mumbai, 400710
+                    B-155, Ground Floor, Vashi Plaza, Sector-17, Vashi, Mumbai, 400703
+
                     </li>
                   </ul>
                 </div>

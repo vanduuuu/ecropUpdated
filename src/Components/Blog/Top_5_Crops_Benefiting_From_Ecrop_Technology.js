@@ -4,6 +4,7 @@ import Blogdata from './Blogdata';
 import './Blogdetail.css'
 import Breadcrumb from '../Breadcrumb';
 import Seo from '../Seo';
+import imgTop from '../../assets/img/top-5-crops-benefiting-from-e-crop-technology2.webp'
 const Top_5_Crops_Benefiting_From_Ecrop_Technology = () => {
   const location = useLocation();
   const blog = Blogdata.find((item) => item.detailPage === location.pathname);
@@ -50,7 +51,9 @@ const Top_5_Crops_Benefiting_From_Ecrop_Technology = () => {
        </p>
        <h5>Top 5 Crops Thriving with e-Crop Technology</h5>
        <p>e-Crop is a precision farming device that collects real-time field data and provides farmers with crop management advisories, ensuring better care and improved results. Here are the top 5 crops benefiting the most from e-Crop technology.</p>
-       <ul className='list-style-square'>
+       <div className='row'>
+        <div className='col-lg-6'>
+        <ul className='list-style-square'>
         <li>
        
             <p><strong>Cassava - </strong>In tropical and subtropical areas, cassava is one of the most significant staple crops. However, pest infestations, water stress, and poor soil quality frequently limit its productivity. Now that e-Crop technology has been put into place, farmers can keep an eye on environmental variables like soil moisture, nutrient levels, and pest activity in real-time. By utilizing data-driven insights, e-Crop assists in managing fertilizer usage, anticipating pest outbreaks, and optimizing irrigation schedules, resulting in healthier crops and increased yields.</p>
@@ -58,10 +61,19 @@ const Top_5_Crops_Benefiting_From_Ecrop_Technology = () => {
         <li>
             <p><strong>Sweet potato - </strong> Sweet potatoes are a multipurpose crop that is grown for its high nutritional content as well as for food. However, irregular soil quality, pest problems, and unpredictable weather patterns frequently hinder its growth. For tackling these issues, e-Crop technology has been revolutionary. Farmers may optimize growing conditions and improve crop management techniques by employing sensors to gather information on temperature, humidity, and soil factors. The real-time guidance system offered by e-Crop also assists farmers in mitigating the dangers posed by climate change, which eventually results in more reliable yields.</p>
         </li>
-        <li><p><strong>Maize -</strong> Corn, often known as maize, is an essential commodity for industrial uses, animal feed, and food security. However, issues with maize production include nutrient shortages, soil erosion, and changing weather patterns. With e-Crop technology, maize farmers can continuously monitor soil health, watch weather forecasts, and receive individualized crop advice. Through the use of data-driven decisions about pest control, fertilizer, and irrigation, e-Crop technology assists maize farmers in increasing yield and quality while minimizing resource waste.</p></li>
+   
+       </ul>
+        </div>
+        <div className='col-lg-6'>
+        <img src={imgTop} alt="Top_5_Crops_Benefiting_From_Ecrop_Technology"/>
+
+        </div>
+       </div>
+    <ul>
+    <li><p><strong>Maize -</strong> Corn, often known as maize, is an essential commodity for industrial uses, animal feed, and food security. However, issues with maize production include nutrient shortages, soil erosion, and changing weather patterns. With e-Crop technology, maize farmers can continuously monitor soil health, watch weather forecasts, and receive individualized crop advice. Through the use of data-driven decisions about pest control, fertilizer, and irrigation, e-Crop technology assists maize farmers in increasing yield and quality while minimizing resource waste.</p></li>
         <li><p><strong>Rice -</strong> For billions of people worldwide, particularly in Asia, rice is a basic diet. However, there are problems with pests, ineffective fertilizer use, and water scarcity in rice farming. Rice farming requires accurate water management systems and soil health monitoring, which e-Crop technology provides. Farmers may maximize their use of water resources and avoid both over- and under-irrigation by using e-Crop, which provides real-time notifications on irrigation requirements. This results in more productive rice, healthier crops, and less water waste.</p></li>
         <li><p><strong>Cotton -</strong> Cotton production, an important cash crop cultivated throughout the world, is often disrupted by pests, diseases, and water stress. e-Crop technology is essential to cotton farming. Precise water and fertilizer delivery is made possible by sensors that track soil moisture, pH, temperature, and nutrients. Farmers can employ targeted pesticides when e-Crop's pest detection system warns them of dangers like bollworms. This technology minimizes the impact on the environment, lowers expenses, and increases yields.</p></li>
-       </ul>
+    </ul>
        
        <p><strong>The adoption of e-Crop has significantly raised agricultural productivity. In reality, it is among the few fields where the full potential of labor-saving gadgets has been realized. With the aid of machinery, a farmer can now perform tasks that many men and women complete. Apart from saving time, it reduces expenses and increases production.</strong></p>
       </div>

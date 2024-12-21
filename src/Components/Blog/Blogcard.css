@@ -6,13 +6,13 @@
   /* Blog Image */
   .blog-image {
     position: relative;
+    overflow: hidden;
   }
-  
   .blog-image img {
     width: 100%;
     height: auto;
+    transition: transform 0.3s ease;
   }
-  
   .date {
     width: 52px;
     height: 52px;
@@ -53,8 +53,16 @@
     font-weight: 500;
     line-height: 26px;
   }
-
-  
+.blog-title a{
+  color: black;
+  cursor: pointer;
+}
+.card:hover img{
+  transform: scale(1.1);
+}
+.card:hover .blog-title a{
+  color:#015701;
+}
   .blog-desc {
     font-size: 14px;
   }

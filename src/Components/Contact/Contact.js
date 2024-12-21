@@ -190,15 +190,13 @@ const Contact = () => {
               <div className="row">
                 <div className="col-md-6">
                   <h6>Address</h6>
+                  <h5>Corporate Office:</h5>
+                  <p>
+                  Unit No 22, Building No. 2(A3), Sector 1, Millennium Business Park, Mahape, Navi Mumbai, 400710
+                  </p>
                   <h5>Regd Office:</h5>
                   <p>
-                    Plot No 80/81, Shop No 155, Vashi Plaza, Sector 17 Vashi,
-                    Mumbai, Mumbai City, Maharashtra, 400703
-                  </p>
-                  <h5>Project Office:</h5>
-                  <p>
-                    61, City Tower, Unit No 2, Dr. S.S. Rao Road, Parel, Mumbai,
-                    400012
+                  B-155, Ground Floor, Vashi Plaza, Sector-17, Vashi, Mumbai, 400703
                   </p>
                   <h6>Contact Information</h6>
                   <div className="row">
